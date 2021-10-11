@@ -59,6 +59,11 @@
     align-items: baseline;
 }
 
+.menu__position-name:hover {
+    transform: scale(1.05);
+    z-index: 1;
+}
+
 .menu__position::after {
     content: "";
     border-top: 2px dotted;
@@ -79,4 +84,100 @@
     color: #777;
     font-size: 14px;
     margin: 5px 0;
+}
+
+.menu__show-żurek:hover:after {
+    content: url(/images/gallery/żurek.jpg);
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.menu__show-rosół:hover:after {
+    content: url(/images/gallery/rosół.jpg);
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.menu__show-krem:hover:after {
+    content: url(/images/gallery/krem.jpg);
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.menu__show-kwaśnica:hover:after {
+    content: url(/images/gallery/kwaśnica.jpg);
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.menu__show-pierś:hover:after {
+    content: url(/images/gallery/pierś.jpg);
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.menu__show-schabowy:hover:after {
+    content: url(/images/gallery/schabowy.jpg);
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.menu__show-devolaille:hover:after {
+    content: url(/images/gallery/de\ volaille.jpg);
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.menu__show-mintaj:hover:after {
+    content: url(/images/gallery/mintaj.jpg);
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.menu__show-lasagne:hover:after {
+    content: url(/images/gallery/lasagne.jpg);
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.menu__show-zkurczakiem:hover:after {
+    content: url(/images/gallery/zkurczakiem.jpg);
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.menu__show-grecka:hover:after {
+    content: url(/images/gallery/grecka.jpg);
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.menu__show-złososiem:hover:after {
+    content: url(/images/gallery/złososiem.jpg);
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    z-index: 1;
 }

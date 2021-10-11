@@ -25,4 +25,9 @@
     height: 100%;
     bottom: 0;
     object-fit: cover;
+    transition: 1.2s;
+}
+
+.gallery__image:hover {
+    transform: scale(1.08);
 }

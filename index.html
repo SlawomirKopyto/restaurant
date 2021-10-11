@@ -22,6 +22,7 @@
   <link href="/css/route.css" rel="stylesheet">
   <link href="/css/social-icon.css" rel="stylesheet">
   <link href="/css/footer.css" rel="stylesheet">
+  <link href="/css/contact-form.css" rel="stylesheet">
 
 </head>
 
@@ -160,24 +161,24 @@
         <ul class="menu__list">
           <li class="menu__list-item">
             <div class="menu__position">
-              <div class="menu__position-name">Żurek staropolski</div>
+              <div class="menu__position-name menu__show-żurek">Żurek staropolski</div>
               <div class="menu__position-price">17</div>
             </div>
             <div class="menu__description">
-              żurek z jajkiem / ziemniaki / kiełbasa / grzanki
+              żurek z jajkiem / ziemniaki / kiełbasa
             </div>
           </li>
           <li class="menu__list-item">
             <div class="menu__position">
-              <div class="menu__position-name">rosół z kluskami</div>
+              <div class="menu__position-name menu__show-rosół">rosół z kluskami</div>
               <div class="menu__position-price">16</div>
             </div>
             <div class="menu__description">
-              rosół na bazie kurczaka / pietruszka / lane kluski </div>
+              rosół na bazie kurczaka / pietruszka / kluski </div>
           </li>
           <li class="menu__list-item">
             <div class="menu__position">
-              <div class="menu__position-name">krem z brokułą</div>
+              <div class="menu__position-name menu__show-krem">krem z brokułą</div>
               <div class="menu__position-price">15</div>
             </div>
             <div class="menu__description">
@@ -186,11 +187,11 @@
           </li>
           <li class="menu__list-item">
             <div class="menu__position">
-              <div class="menu__position-name">barszcz z kołdunami</div>
+              <div class="menu__position-name menu__show-kwaśnica">kwaśnica z żeberkiem</div>
               <div class="menu__position-price">18</div>
             </div>
             <div class="menu__description">
-              barszcz / kołduny / pietruszka
+              kwaśnica / wędzone żeberko / kapusta kiszona
             </div>
           </li>
         </ul>
@@ -200,7 +201,7 @@
         <ul class="menu__list">
           <li class="menu__list-item">
             <div class="menu__position">
-              <div class="menu__position-name">Pierś z kurczaka</div>
+              <div class="menu__position-name menu__show-pierś">Pierś z kurczaka</div>
               <div class="menu__position-price">22</div>
             </div>
             <div class="menu__description">
@@ -209,16 +210,16 @@
           </li>
           <li class="menu__list-item">
             <div class="menu__position">
-              <div class="menu__position-name">Schabowy po polsku</div>
+              <div class="menu__position-name menu__show-schabowy">Schabowy po polsku</div>
               <div class="menu__position-price">27</div>
             </div>
             <div class="menu__description">
-              schab / ziemniaki z okrasą / kapusta zasmażana
+              schab / ziemniaki z okrasą / zestaw surówek
             </div>
           </li>
           <li class="menu__list-item">
             <div class="menu__position">
-              <div class="menu__position-name">De volaille</div>
+              <div class="menu__position-name menu__show-devolaille">De volaille</div>
               <div class="menu__position-price">25</div>
             </div>
             <div class="menu__description">
@@ -227,7 +228,7 @@
           </li>
           <li class="menu__list-item">
             <div class="menu__position">
-              <div class="menu__position-name">Mintaj z frytkami</div>
+              <div class="menu__position-name menu__show-mintaj">Mintaj z frytkami</div>
               <div class="menu__position-price">24</div>
             </div>
             <div class="menu__description">
@@ -236,7 +237,7 @@
           </li>
           <li class="menu__list-item">
             <div class="menu__position">
-              <div class="menu__position-name">Lasagne</div>
+              <div class="menu__position-name menu__show-lasagne">Lasagne</div>
               <div class="menu__position-price">23</div>
             </div>
             <div class="menu__description">
@@ -248,7 +249,7 @@
         <ul class="menu__list">
           <li class="menu__list-item">
             <div class="menu__position">
-              <div class="menu__position-name">z kurczakiem</div>
+              <div class="menu__position-name menu__show-zkurczakiem">z kurczakiem</div>
               <div class="menu__position-price">21</div>
             </div>
             <div class="menu__description">
@@ -257,7 +258,7 @@
           </li>
           <li class="menu__list-item">
             <div class="menu__position">
-              <div class="menu__position-name">grecka</div>
+              <div class="menu__position-name menu__show-grecka">grecka</div>
               <div class="menu__position-price">19</div>
             </div>
             <div class="menu__description">
@@ -265,11 +266,11 @@
           </li>
           <li class="menu__list-item">
             <div class="menu__position">
-              <div class="menu__position-name">z łososiem</div>
+              <div class="menu__position-name menu__show-złososiem">z łososiem</div>
               <div class="menu__position-price">23</div>
             </div>
             <div class="menu__description">
-              sałata / łosoś / oliwki / ogórek kiszony
+              sałata / łosoś / oliwki / granat
             </div>
           </li>
         </ul>
@@ -297,7 +298,7 @@
           </li>
           <li class="menu__list-item">
             <div class="menu__position">
-              <div class="menu__position-name">Serni na zimno</div>
+              <div class="menu__position-name">Sernik na zimno</div>
               <div class="menu__position-price">15</div>
             </div>
             <div class="menu__description">
@@ -367,42 +368,57 @@
       </li>
       <li class="gallery__list-item">
         <div class="gallery__aspect-ratio">
-          <img class="gallery__image" src="/images/gallery/2.jpg" alt="Jedzenie">
+          <img class="gallery__image" src="/images/gallery/żurek.jpg" alt="Jedzenie" title="Żurek staropolski">
         </div>
       </li>
       <li class="gallery__list-item">
         <div class="gallery__aspect-ratio">
-          <img class="gallery__image" src="/images/gallery/3.jpg" alt="Jedzenie">
+          <img class="gallery__image" src="/images/gallery/zkurczakiem.jpg" alt="Jedzenie" title="Sałatka z kurczakiem">
         </div>
       </li>
       <li class="gallery__list-item">
         <div class="gallery__aspect-ratio">
-          <img class="gallery__image" src="/images/gallery/4.jpg" alt="Jedzenie">
+          <img class="gallery__image" src="/images/gallery/grecka.jpg" alt="Jedzenie" title="Sałatka grecka">
         </div>
       </li>
       <li class="gallery__list-item">
         <div class="gallery__aspect-ratio">
-          <img class="gallery__image" src="/images/gallery/5.jpg" alt="Jedzenie">
+          <img class="gallery__image" src="/images/gallery/mintaj.jpg" alt="Jedzenie" title="Mintaj">
         </div>
       </li>
       <li class="gallery__list-item">
         <div class="gallery__aspect-ratio">
-          <img class="gallery__image" src="/images/gallery/6.jpg" alt="Jedzenie">
+          <img class="gallery__image" src="/images/gallery/schabowy.jpg" alt="Jedzenie" title="Schabowy po polsku">
         </div>
       </li>
       <li class="gallery__list-item">
         <div class="gallery__aspect-ratio">
-          <img class="gallery__image" src="/images/gallery/7.jpg" alt="Jedzenie">
+          <img class="gallery__image" src="/images/gallery/pierś.jpg" alt="Jedzenie" title="Pierś z kurczaka">
         </div>
       </li>
       <li class="gallery__list-item">
         <div class="gallery__aspect-ratio">
-          <img class="gallery__image" src="/images/gallery/8.jpg" alt="Jedzenie">
+          <img class="gallery__image" src="/images/gallery/rosół.jpg" alt="Jedzenie" title="Rosół">
         </div>
       </li>
       <li class="gallery__list-item">
         <div class="gallery__aspect-ratio">
-          <img class="gallery__image" src="/images/gallery/9.jpg" alt="Jedzenie">
+          <img class="gallery__image" src="/images/gallery/de volaille.jpg" alt="Jedzenie" title="De volaille">
+        </div>
+      </li>
+      <li class="gallery__list-item">
+        <div class="gallery__aspect-ratio">
+          <img class="gallery__image" src="/images/gallery/kwaśnica.jpg" alt="Jedzenie" title="Kwaśnica z żeberkiem">
+        </div>
+      </li>
+      <li class="gallery__list-item">
+        <div class="gallery__aspect-ratio">
+          <img class="gallery__image" src="/images/gallery/lasagne.jpg" alt="Jedzenie" title="Lasagne">
+        </div>
+      </li>
+      <li class="gallery__list-item">
+        <div class="gallery__aspect-ratio">
+          <img class="gallery__image" src="/images/gallery/złososiem.jpg" alt="Jedzenie" title="Sałatka z łososiem">
         </div>
       </li>
     </ul>
@@ -412,6 +428,37 @@
     <h2 class="bookmark__header">Kontakt</h2>
     <p class="bookmark__description">Porozmawiaj z nami lub zarezerwój stolik</p>
   </section>
+
+
+  <form class="contact-form">
+    <div class="container container--smaller">
+      <div class="contact-form__info">
+        <div class="contact-form__info-item">
+          <img src="/images/icons/envelope.svg" alt="E-mail" class="contact-form__info-icon">
+          <a href="mailto:kontakt@niebiańska ambrozja.pl" class="contact-form__info-link">kontakt@niebiańska
+            ambrozja.pl</a>
+        </div>
+        <div class="contact-form__info-item">
+          <img src="/images/icons/phone.svg" alt="Telefon" class="contact-form__info-icon">
+          <a href="tel:0123 456 789" class="contact-form__info-link">0123 456 789</a>
+        </div>
+      </div>
+      <p class="contact-form__header">
+        Jeśli nie znalazłeś na naszej stronie informacji, których potrzebujesz,<br>
+        wyślij formularz kontaktowy lub zadzwoń.<br>
+        Chętnie z Tobą porozmawiamy i odpowiemy na wszystkie pytania
+      </p>
+
+      <div class="contact-form__fields">
+        <input name="name" class="contact-form__field" required placeholder="Imię i nazwisko">
+        <input name="email" type="email" class="contact-form__field" required placeholder="Adres e-mail">
+        <textarea placeholder="Treść wiadomości" class="contact-form__field contact-form__field--full-row"
+          name="content" required rows="10"></textarea>
+      </div>
+      <button class="contact-form__submit-button">wyślij</button>
+    </div>
+  </form>
+
   <section class="bookmark bookmark--route" id="route">
     <h2 class="bookmark__header">Jak dojechać</h2>
     <p class="bookmark__description">Łatwo nasz znajdziesz</p>
