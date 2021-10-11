@@ -27,6 +27,12 @@
     height: 25px;
 }
 
+@media(max-width: 767px) {
+    .contact-form__info-icon {
+        height: 20px;;
+    }
+}
+
 .contact-form__info-link {
     color: #eee;
     text-decoration: none;
@@ -35,7 +41,7 @@
 
 @media(max-width: 767px) {
     .contact-form__info-link {
-        font-size: 16px;
+        font-size: 13px;
     }
 }
 
@@ -49,7 +55,7 @@
 
 @media(max-width: 767px) {
     .contact-form__header {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
@@ -66,6 +72,12 @@
     border: 1px solid;
     color: #eee;
     padding: 12px;
+}
+
+@media(max-width: 767px) {
+    .contact-form__field {
+        font-size: 12px;
+    }
 }
 
 .contact-form__field--full-row {
@@ -87,6 +99,13 @@
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
+}
+
+@media(max-width: 767px) {
+    .contact-form__submit-button {
+        padding: 8px 12px;
+        margin: 12px auto 0 auto;
+    }
 }
 
 .contact-form__submit-button:hover {
