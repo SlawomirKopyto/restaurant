@@ -10,13 +10,17 @@
 }
 
 .main__banner-container {
+    background: rgba(0, 0, 0, 0.829);
     text-align: center;
     color: white;
     transition: 2s;
+    padding: 30px;
+    border-radius: 20px;
 }
 
 .main__banner-container:hover {
-    color: hsl(249, 90%, 39%);
+    color: hsl(123, 58%, 38%);
+    background: rgba(0, 0, 0, 0.72);
 }
 
 .main__banner-title {
@@ -33,7 +37,7 @@
 .main__banner-description {
     font-size: 22px;
     justify-content: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 @media(max-width: 767px) {
